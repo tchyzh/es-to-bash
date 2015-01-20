@@ -15,12 +15,12 @@ es2unix's only dependency is Java (Oracle or OpenJDK).  Version 7
 should be preferred, but there is no functional difference with 6.
 Earlier versions aren't supported.
 
-        curl -s download.elasticsearch.org/es2unix/es >~/bin/es
+        curl -s download.elasticsearch.org/es2unix/es >/bin/es
         chmod +x ~/bin/es
 
 You can also pin to a particular version from your provisioning tools.
 
-        curl -s download.elasticsearch.org/es2unix/es-20130503595fce2 >~/bin/es
+        curl -s download.elasticsearch.org/es2unix/es-20130503595fce2 >/bin/es
 
 # Usage
 
